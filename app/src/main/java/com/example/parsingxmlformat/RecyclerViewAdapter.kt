@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_row.view.*
 
 class RecyclerViewAdapter(val data: List<Students>): RecyclerView.Adapter<RecyclerViewAdapter.ItemViewHolder>() {
-    class ItemViewHolder(itemView: View): RecyclerView.ViewHolder(itemView)
+    class ItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
         return ItemViewHolder(

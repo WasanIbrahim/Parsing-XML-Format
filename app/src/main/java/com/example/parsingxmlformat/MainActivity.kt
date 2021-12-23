@@ -31,16 +31,5 @@ class MainActivity : AppCompatActivity() {
 
         Log.d("list", "$students")
 
-
-
-
-//        try{
-//
-//
-//        }catch (e: Exception) {
-//            e.printStackTrace()
-//
-//        }
-
     }
 }
